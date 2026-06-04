@@ -3,9 +3,6 @@ import Link from "next/link"
 const roomLinks = [
   "Kitchens",
   "Pantries",
-  "Mudrooms",
-  "Butler's Pantries",
-  "Sculleries",
   "Bedrooms",
   "Bathrooms",
   "Dressing Rooms",
@@ -24,16 +21,16 @@ export function IntroSection() {
 
       {/* Tagline */}
       <div className="max-w-3xl mx-auto space-y-1 mb-8">
-        <p className="text-xs md:text-sm uppercase tracking-[0.2em] text-muted-foreground">
-        From Design to Installation
-        </p>
-        <p className="text-xs md:text-sm uppercase tracking-[0.2em] text-muted-foreground">
-        Thoughtfully designed. Precisely built. Made to last for
-        </p>
-        <p className="text-xs md:text-sm uppercase tracking-[0.2em] text-muted-foreground">
-        years to come.
-        </p>
-      </div>
+  <p className="text-sm md:text-base uppercase tracking-[0.2em] text-muted-foreground">
+    From Design to Installation
+  </p>
+  <p className="text-sm md:text-base uppercase tracking-[0.2em] text-muted-foreground">
+    Thoughtfully designed. Precisely built. Made to last for
+  </p>
+  <p className="text-sm md:text-base uppercase tracking-[0.2em] text-muted-foreground">
+    years to come.
+  </p>
+</div>
 
       {/* Locations */}
       <div className="flex items-center justify-center gap-6 md:gap-10 mb-10">

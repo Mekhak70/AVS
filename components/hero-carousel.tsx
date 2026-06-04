@@ -29,7 +29,7 @@ export function HeroCarousel() {
   return (
     <section className="relative w-full">
       {/* Location selector overlay */}
-      <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10 bg-background/95 border border-border px-6 py-4 text-center">
+      {/* <div className="absolute top-4 left-1/2 -translate-x-1/2 z-10 bg-background/95 border border-border px-6 py-4 text-center">
         <p className="text-xs uppercase tracking-[0.2em] text-muted-foreground mb-2">
           Choose Your Location Below
         </p>
@@ -40,7 +40,7 @@ export function HeroCarousel() {
           <span>🇬🇧</span>
           <span className="text-foreground">UK, Europe &amp; ROW</span>
         </div>
-      </div>
+      </div> */}
 
       {/* Carousel */}
       <div className="relative aspect-[16/9] md:aspect-[21/9] overflow-hidden">

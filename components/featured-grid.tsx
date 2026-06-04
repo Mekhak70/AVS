@@ -12,21 +12,21 @@ const featuredItems = [
     image: "/images/how-we-work.jpg",
     href: "#how-we-work",
   },
-  {
-    title: "Other Rooms",
-    image: "/images/other-rooms.jpg",
-    href: "#other-rooms",
-  },
-  {
-    title: "Pimlico Showroom",
-    image: "/images/showroom.jpg",
-    href: "#pimlico-showroom",
-  },
-  {
-    title: "Stowupland Hall",
-    image: "/images/hall.jpg",
-    href: "#stowupland-hall",
-  },
+  // {
+  //   title: "Other Rooms",
+  //   image: "/images/other-rooms.jpg",
+  //   href: "#other-rooms",
+  // },
+  // {
+  //   title: "Pimlico Showroom",
+  //   image: "/images/showroom.jpg",
+  //   href: "#pimlico-showroom",
+  // },
+  // {
+  //   title: "Stowupland Hall",
+  //   image: "/images/hall.jpg",
+  //   href: "#stowupland-hall",
+  // },
   {
     title: "Colour Collections",
     image: "/images/colours.jpg",
