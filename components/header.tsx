@@ -83,7 +83,7 @@ export function Header() {
           <Link href="/" className="text-center">
             <Image src={logo} alt="KiTCHEBS Logo" width={120} height={20} className="mx-auto" />
             <p className="mt-1 text-[10px] uppercase tracking-[0.3em] text-muted-foreground">
-            KiTCHEBS
+            KiTCHENS
             </p>
           </Link>
         </div>
