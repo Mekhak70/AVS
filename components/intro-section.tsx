@@ -16,28 +16,28 @@ export function IntroSection() {
     <section className="py-12 md:py-16 px-4 text-center">
       {/* Main heading */}
       <h2 className="font-serif text-2xl md:text-3xl lg:text-4xl tracking-[0.15em] text-foreground mb-6">
-      CUSTOM KITCHEN CABINETRY
+        CUSTOM KITCHEN CABINETRY
       </h2>
 
       {/* Tagline */}
-      <div className="max-w-3xl mx-auto space-y-1 mb-8">
-  <p className="text-sm md:text-base uppercase tracking-[0.2em] text-muted-foreground">
-    From Design to Installation
-  </p>
-  <p className="text-sm md:text-base uppercase tracking-[0.2em] text-muted-foreground">
-    Thoughtfully designed. Precisely built. Made to last for
-  </p>
-  <p className="text-sm md:text-base uppercase tracking-[0.2em] text-muted-foreground">
-    years to come.
-  </p>
-</div>
+      <div className="max-w-3xl mx-auto mb-8">
+        <p className="text-sm md:text-base uppercase tracking-[0.2em] text-muted-foreground">
+          From Design to Installation
+        </p>
+        <p className="text-sm md:text-base uppercase tracking-[0.2em] text-muted-foreground">
+          Thoughtfully designed. Precisely built. Made to last for
+        </p>
+        <p className="text-sm md:text-base uppercase tracking-[0.2em] text-muted-foreground">
+          years to come.
+        </p>
+      </div>
 
       {/* Locations */}
       <div className="flex items-center justify-center gap-6 md:gap-10 mb-10">
         <span className="text-sm md:text-base font-medium uppercase tracking-[0.2em] text-foreground">
-        Every detail considered, every element crafted to fit your space and lifestyle.
+          Every detail considered, every element crafted to fit your space and lifestyle.
         </span>
-       
+
       </div>
 
       {/* Room links */}
