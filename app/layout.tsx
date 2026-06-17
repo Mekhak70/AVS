@@ -46,7 +46,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="en" className="bg-background">
+    <html lang="en" >
       <body className={`${cormorant.variable} ${dmSans.variable} font-sans antialiased`}>
         <Header />
         <main className="min-h-screen">

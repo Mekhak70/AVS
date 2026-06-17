@@ -37,7 +37,7 @@ export function Header() {
 
   return (
     <>
-      <header className="w-full bg-background relative z-40">
+      <header className="w-full  relative z-40">
         {/* Top navigation bar */}
         <div className="flex items-center justify-between px-4 py-3 md:px-8 lg:px-12">
           {/* Left side - flags and contact */}
