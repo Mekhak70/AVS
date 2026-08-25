@@ -95,24 +95,18 @@ export default function OtherRoomsPage() {
         <div className="content-row">
           <div className="main-content">
             <h1>OTHER ROOMS</h1>
-            <p>
-              Our joinery designs often travel outside the kitchen too. The visual language of Plain English 
-              extends to any room – we design cabinetry for pantries, mudrooms, larders, butler's pantries, 
-              bedrooms, dressing rooms, bathrooms, home offices, bars, libraries and pool houses, often 
-              separated by our handmade glazed screens.
-            </p>
-            <p>
-              Explore a selection of our projects for Other Rooms below.
-            </p>
-            <p>
-              See our work in the <Link href="/kitchens">Kitchen</Link> too.
-            </p>
+            <p>Custom Cabinetry Beyond the Kitchen
+
+At AVS Kitchens, our approach to custom design extends throughout the home. We create beautifully considered cabinetry for pantries, bathrooms, bedrooms, dressing rooms, laundry rooms, libraries, and home offices.
+
+Each space is designed around your home, your needs, and your personal style — combining smart functionality, quality craftsmanship, and carefully selected finishes.
+
+From practical storage to statement built-ins, every detail is thoughtfully designed to create a cohesive look that flows naturally from one room to the next.
+
+Custom cabinetry, designed for every part of your home.</p>
           </div>
 
-          <div className="sidebar-quote">
-            "Once our designs are completed and approved, our in-house artisans begin the process of making 
-            each bespoke element, using centuries-old hand skills combined with 21st-century precision gadgetry."
-          </div>
+          
         </div>
 
         {/* Categories Grid */}

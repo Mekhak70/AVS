@@ -60,61 +60,19 @@ export default function KitchensPage() {
           <div className="main-content">
             <h1>Kitchens</h1>
             <p>
-              Since 1992 we have studied with fascination, the below stairs joinery of the great houses of England. 
-              Plain English are observers, in the broadest sense of the word. We stay true to craft and apply it 
-              steadily; our focus on the Georgian sensibility of form and proportion runs through all of our designs 
-              in any number of architectural settings. Classic to contemporary, in the city or the countryside, all 
-              across North America. Custom, bespoke design; kitchens, <Link href="/other-rooms/larders-and-pantries">pantries</Link>, 
-              <Link href="/other-rooms/mudrooms"> mudrooms</Link>, <Link href="/other-rooms/butlers-pantry-or-scullery">butler's pantries</Link>, 
-              <Link href="/other-rooms/butlers-pantry-or-scullery"> sculleries</Link>, <Link href="/other-rooms/laundry-rooms">laundry rooms</Link>, 
-              <Link href="/other-rooms/larders-and-pantries"> larders</Link> and <Link href="/other-rooms/bars">bars</Link>, crafted from 
-              the best materials and infused with our unique sense of style. Always hand-painted. We are a Design Studio 
-              working with clients, architects, interior designers and contractors. Project costs are dependent on scope, 
-              scale and desired detail — a simple project can often begin at around $100,000. We work outside of the kitchen 
-              too; a visual language that travels to bedrooms, <Link href="/other-rooms/bathrooms">bathrooms</Link>, 
-              <Link href="/other-rooms/dressing-rooms-and-wardrobes">dressing rooms</Link>, 
-              <Link href="/other-rooms/home-offices-and-libraries">libraries, home offices</Link> and 
-              <Link href="/other-rooms/pool-houses">pool houses</Link>.
+              Custom Kitchens, Designed Around You
+
+              At AVS Kitchens, every kitchen begins with you — your home, your style, and the way you live. With over 10 years of experience serving homeowners across the GTA, we create custom kitchens that balance thoughtful design, quality craftsmanship, and everyday functionality.
+
+              Every detail is considered, from cabinetry, islands, and integrated storage to materials, finishes, hardware, and proportions. Whether your style is contemporary, transitional, or timeless, each kitchen is designed specifically for your space and made to last.
+
+              From initial design through manufacturing and installation, we work closely with homeowners, designers, architects, and contractors to bring each vision to life.
             </p>
 
-            <h3>A Custom Kitchen Design Studio Rooted in English Craftsmanship</h3>
-            <p>
-              Every Plain English kitchen is designed from the ground up, not selected from a pre-set collection. Our 
-              <Link href="/how-we-work"> design process</Link> begins with your home's architecture, your daily routines, 
-              and your sense of style. We draw from centuries of English joinery traditions, combining timeless form with 
-              thoughtful, modern function. Each cabinet is built to order, proportioned precisely for your space, and 
-              crafted to feel as though it's always belonged. From initial concept to final installation, we collaborate 
-              closely with homeowners, architects, and interior designers to bring your vision to life with care, clarity, 
-              and craftsmanship.
-            </p>
 
-            <h3>Bespoke Cabinetry, Tailored to Your Needs</h3>
-            <p>
-              True bespoke cabinetry means there are no shortcuts — only precision, craftsmanship, and attention to detail. 
-              Our <Link href="/custom-kitchen-cabinets">custom kitchen cabinets</Link> are handcrafted in the UK using 
-              sustainably sourced materials and time-honored techniques. Solid wood frames, dovetail joints, and meticulously 
-              finished interiors are just some of the elements that define our work. Each kitchen is designed around how you 
-              live, cook, gather, and move through your day. Whether you're planning a pantry, scullery, larder, or integrated 
-              built-in, we create solutions that are as functional as they are beautiful. Every surface is painted by hand 
-              in your chosen palette, creating a sense of harmony throughout the home and a finish that wears with character 
-              over time.
-            </p>
-
-            <h3>Explore the Elegance of a Plain English Kitchen</h3>
-            <p>
-              A Plain English kitchen is built on principles of quiet elegance — restraint, proportion, and purpose. Rooted in 
-              Georgian design, our work avoids distraction and ornament in favor of balance and clarity. Each kitchen becomes 
-              a calm, character-rich space that complements its surroundings, whether set in a city brownstone or a coastal 
-              new build. This is a space designed to be lived in where form supports function, and every detail reflects your 
-              taste. Experience the understated luxury of a kitchen that feels deeply considered and made just for you. If 
-              you're ready to begin planning your own bespoke kitchen, we invite you to <Link href="/kitchens">get in touch</Link>.
-            </p>
           </div>
 
-          <div className="sidebar-quote">
-            "Our projects are defined with the spirit and dignity of utility, suitability and simplicity. The Plain English 
-            paint colours reference historic shades, found in Georgian, Regency and Victorian houses, reimagined for today."
-          </div>
+
         </div>
 
         {/* Projects Grid */}

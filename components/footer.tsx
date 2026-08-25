@@ -1,5 +1,8 @@
+"use client";
+
 import Link from "next/link"
 import { Facebook, Instagram, Mail } from "lucide-react"
+import { usePathname,  } from "next/navigation";
 
 const footerLinks = [
   { label: "Sign Up to Our Newsletter", href: "#newsletter" },
@@ -11,8 +14,12 @@ const footerLinks = [
 ]
 
 export function Footer() {
+
+
+
+  const pathname = usePathname();
   return (
-    <footer className="border-t border-border ">
+    pathname !== '/' &&  <footer className="border-t border-border ">
       <div className="px-4 md:px-8 lg:px-12 py-10 md:py-12">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-12">
           {/* Left column - Links */}

@@ -96,7 +96,7 @@ export function Header() {
             ? "opacity-100 pointer-events-auto" 
             : "opacity-0 pointer-events-none"
         }`}
-        style={{ backgroundColor: "#6b6b5a" }}
+        style={{ backgroundColor: "#191970" }}
       >
         {/* Close button */}
         <button
@@ -124,7 +124,7 @@ export function Header() {
           </ul>
 
           {/* Social icons */}
-          <div className="mt-8 flex items-center gap-6">
+          {/* <div className="mt-8 flex items-center gap-6">
             <a
               href="https://facebook.com"
               target="_blank"
@@ -160,7 +160,7 @@ export function Header() {
                 <path d="M12 0a12 12 0 0 0-4.37 23.17c-.1-.94-.2-2.38.04-3.4l1.44-6.13s-.36-.73-.36-1.8c0-1.69.98-2.95 2.2-2.95 1.04 0 1.54.78 1.54 1.71 0 1.04-.66 2.6-1 4.04-.29 1.2.6 2.18 1.78 2.18 2.13 0 3.77-2.25 3.77-5.5 0-2.87-2.06-4.88-5.01-4.88-3.42 0-5.42 2.56-5.42 5.21 0 1.03.4 2.14.89 2.74.1.12.11.22.08.34l-.33 1.36c-.05.22-.18.27-.4.16-1.5-.7-2.43-2.88-2.43-4.64 0-3.78 2.74-7.25 7.91-7.25 4.15 0 7.38 2.96 7.38 6.92 0 4.12-2.6 7.44-6.21 7.44-1.21 0-2.35-.63-2.74-1.37l-.75 2.84c-.27 1.04-1 2.35-1.49 3.15A12 12 0 1 0 12 0z"/>
               </svg>
             </a>
-          </div>
+          </div> */}
         </nav>
       </div>
     </>

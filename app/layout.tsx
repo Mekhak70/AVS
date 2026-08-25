@@ -17,6 +17,8 @@ const dmSans = DM_Sans({
   variable: "--font-sans"
 });
 
+
+
 export const metadata: Metadata = {
   title: 'Luxury Kitchens & Design | Plain English Cupboardmakers',
   description: 'Fine craftsmanship since 1992. Inspired by the joinery of classic British interiors. Handcrafted luxury kitchens in London, New York, and Los Angeles.',

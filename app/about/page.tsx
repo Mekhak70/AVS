@@ -24,26 +24,15 @@ export default function AboutPage() {
           <div className="main-content">
             <h1>About US</h1>
             <p>
-              Thirty years ago, we were looking for a simple painted kitchen for the Suffolk longhouse we were building. 
-              We couldn't find what we were looking for, so we designed our own, had it built and installed it. A magazine 
-              came and took pictures of the house and it was the kitchen that brought a deluge of enquiries and Plain English 
-              was born. At first, we set up shop in a charming old tannery and then later in a rather grand Georgian farmhouse 
-              deep in the East Anglian countryside where we slowly put the stables, barns and outbuildings to use as workshops 
-              and studios for design. It is the reimagination of life in this building, in its heyday, that inspires us today. 
-              The plain, early Georgian architecture and views out over the fields allow us to indulge in our English fascination 
-              with the weather as the seasons pass by.
+              For over 10 years, AVS Kitchens has been creating beautifully designed, custom-made kitchens and cabinetry for homeowners across the Greater Toronto Area.
+
+              We believe every kitchen should be as unique as the people who live in it. Our approach combines thoughtful design, quality craftsmanship, premium materials, and careful attention to every detail to create spaces that are both beautiful and functional.
+
+              From the initial consultation and design to manufacturing and installation, the AVS Kitchens team is dedicated to providing a professional, personalized, and seamless experience.
+
+              With more than a decade of experience in the GTA, we take pride in creating kitchens that enhance our clients’ homes and are built to be enjoyed for years to come
             </p>
-            <p>
-              We opened showrooms and Design Studios in London's Marylebone neighbourhood in 2009. In 2018, we opened in New York 
-              City in a 19th C brownstone in Greenwich Village and at La Cienega Blvd in Los Angeles in 2024. In 2023 we expanded 
-              our showroom in New York City to add a Garden Floor, as well as relocating our London showroom from Marylebone to 
-              London's design district – Pimlico Road. While our aesthetic continues to reference the timeless proportions and 
-              harmony of Georgian 'below stairs' joinery, our language speaks to all kinds of architectural settings, embracing 
-              all the modern ways we live now.
-            </p>
-            <p className="founders-signature">
-              KATIE FONTANA &amp; TONY NIBLOCK, FOUNDERS
-            </p>
+
           </div>
 
           {/* Optional Quote Sidebar - can be empty or add content */}
