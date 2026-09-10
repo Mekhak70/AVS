@@ -1,118 +1,159 @@
 import Link from "next/link";
+import styles from "./contact.module.css";
 
 export default function ContactPage() {
   return (
-    <div className="contact-page">
-      <div className="container content-top">
-        {/* Page Title */}
-        <div className="section-title">
-          <h1>Contact us</h1>
+    <div className={styles.page}>
+      <div className={styles.container}>
+        {/* Header */}
+        <header className={styles.header}>
+          <span className={styles.eyebrow}>Get in Touch</span>
+          <h1 className={styles.title}>Contact Us</h1>
+          <p className={styles.subtitle}>
+            We'd love to hear from you. Reach out by phone, email, or visit our
+            showroom in Concord.
+          </p>
+        </header>
+
+        {/* Two-column grid */}
+        <div className={styles.grid}>
+          {/* Left — Details list */}
+          <ul className={styles.details}>
+            {/* Phone */}
+            <li className={styles.detailItem}>
+              <svg
+                className={styles.detailIcon}
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                aria-hidden="true"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 002.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 01-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 00-1.091-.852H4.5A2.25 2.25 0 002.25 4.5v2.25z"
+                />
+              </svg>
+              <div className={styles.detailBody}>
+                <span className={styles.detailLabel}>Phone</span>
+                <a
+                  className={styles.detailValue}
+                  href="tel:+16477777772"
+                >
+                  +1 647 777 7772
+                </a>
+              </div>
+            </li>
+
+            {/* Email */}
+            <li className={styles.detailItem}>
+              <svg
+                className={styles.detailIcon}
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                aria-hidden="true"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75"
+                />
+              </svg>
+              <div className={styles.detailBody}>
+                <span className={styles.detailLabel}>Email</span>
+                <a
+                  className={styles.detailValue}
+                  href="mailto:info.avskitchens@gmail.com"
+                >
+                  info.avskitchens@gmail.com
+                </a>
+              </div>
+            </li>
+
+            {/* Address */}
+            <li className={styles.detailItem}>
+              <svg
+                className={styles.detailIcon}
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor"
+                strokeWidth={1.5}
+                aria-hidden="true"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z"
+                />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z"
+                />
+              </svg>
+              <div className={styles.detailBody}>
+                <span className={styles.detailLabel}>Showroom</span>
+                <address className={styles.address}>
+                  Babkeni Street, Unit 43
+                  <br />
+                  Concord, ON
+                </address>
+                <Link
+                  className={styles.mapLink}
+                  href="https://www.google.com/maps/search/?api=1&query=Babkeni%20Street%20Unit%2043%2C%20Concord%20ON"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Open in Maps
+                </Link>
+              </div>
+            </li>
+          </ul>
+
+          {/* Right — Panel */}
+          <aside className={styles.panel}>
+            <h2 className={styles.panelTitle}>
+              Visit our showroom
+            </h2>
+            <div className={styles.panelDivider} />
+            <p className={styles.panelText}>
+              Step into our Concord showroom to explore premium kitchen and
+              interior solutions firsthand. Our team is happy to walk you
+              through every detail.
+            </p>
+
+            <ul className={styles.panelHours}>
+              <li>
+                <span>Monday – Friday</span>
+                <span>9:00 — 18:00</span>
+              </li>
+              <li>
+                <span>Saturday</span>
+                <span>10:00 — 16:00</span>
+              </li>
+              <li>
+                <span>Sunday</span>
+                <span>By appointment</span>
+              </li>
+            </ul>
+
+            {/* <a
+              className={styles.cta}
+              href="mailto:info.avskitchens@gmail.com"
+            >
+              Book a Visit
+            </a> */}
+          </aside>
         </div>
 
-        {/* Main Contact Cards Row */}
-        <div className="contact-main-row">
-          {/* USA Card */}
-          <div className="contact-card contact-card-usa">
-            <div className="contact-card-content">
-              <h3>USA</h3>
-              <p>From our New York City and Los Angeles showrooms, our designers work on projects all across North America.</p>
-              <p><a href="mailto:hello@plainenglishdesign.com">hello@plainenglishdesign.com</a></p>
-              <div className="address-block">
-                <p><strong>NEW YORK</strong><br />
-                51 East Tenth Street New York NY 10003<br />
-                Monday to Friday 10am-5pm<br />
-                Saturday 11am-4pm<br />
-                (excluding public holidays)<br />
-                <a href="tel:2122030726">212 203 0726</a></p>
-              </div>
-              <div className="address-block">
-                <p><strong>LOS ANGELES</strong><br />
-                930 N La Cienega Blvd, Los Angeles, CA 90069<br />
-                Monday to Friday 9am-5pm<br />
-                (excluding public holidays)<br />
-                <a href="tel:3234101557">323 410 1557</a></p>
-              </div>
-            </div>
-          </div>
-
-          {/* UK Card */}
-          <div className="contact-card contact-card-uk">
-            <div className="contact-card-content">
-              <h3>UK</h3>
-              <p>Our showroom is on London's Pimlico Road and our headquarters and workshop are found in the heart of the Suffolk countryside.</p>
-              <p><a href="mailto:design@plainenglishdesign.co.uk">design@plainenglishdesign.co.uk</a></p>
-              <div className="address-block">
-                <p><strong>LONDON – FLAGSHIP SHOWROOM</strong><br />
-                61 Pimlico Road, SW1W 8NE<br />
-                Monday to Friday 10am-5:30pm<br />
-                Saturday 11am-5pm</p>
-                <p><a href="tel:+442074862674">+44 (0) 20 7486 2674</a></p>
-              </div>
-              <div className="address-block">
-                <p><strong>SUFFOLK – HEAD OFFICE</strong><br />
-                Stowupland Hall, Stowupland, Stowmarket Suffolk IP14 4BE<br />
-                By appointment only.<br />
-                (excluding bank holidays)</p>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* Bottom Cards Row */}
-        <div className="contact-bottom-row">
-          {/* Follow Card */}
-          <div className="bottom-card bottom-card-follow">
-            <div className="bottom-card-content">
-              <h3>FOLLOW</h3>
-              <p><a href="https://instagram.com/plainenglishdesign/" target="_blank" rel="noopener noreferrer">@plainenglishdesign</a></p>
-            </div>
-          </div>
-
-          {/* Join Newsletter Card */}
-          <div className="bottom-card bottom-card-join">
-            <div className="bottom-card-content">
-              <h3>JOIN</h3>
-              <p>The Plain English Newsletter<br />An occasional note from Plain English to you</p>
-              <p><Link href="/join-our-newsletter" className="btn">Sign up here</Link></p>
-            </div>
-          </div>
-
-          {/* UK Site Card */}
-          <div className="bottom-card bottom-card-uksite">
-            <div className="bottom-card-content">
-              <h3>UK site</h3>
-              <p>Visit our UK Site</p>
-              <p><a href="https://plainenglishdesign.co.uk" target="_blank" rel="noopener noreferrer" className="btn">EXPLORE</a></p>
-            </div>
-          </div>
-
-          {/* Press Card */}
-          <div className="bottom-card bottom-card-press">
-            <div className="bottom-card-content">
-              <h3>PRESS</h3>
-              <p>For all press enquiries please contact<br />
-              <a href="mailto:anna@plainenglishdesign.com">anna@plainenglishdesign.com</a></p>
-            </div>
-          </div>
-
-          {/* How We Work Card */}
-          <div className="bottom-card bottom-card-howwework">
-            <div className="bottom-card-content">
-              <h3>HOW WE WORK</h3>
-              <p>Plain English Design welcomes your project</p>
-              <p><Link href="/how-we-work" className="btn">READ MORE</Link></p>
-            </div>
-          </div>
-
-          {/* Join Team Card */}
-          <div className="bottom-card bottom-card-team">
-            <div className="bottom-card-content">
-              <h3>JOIN THE TEAM</h3>
-              <p>We welcome all enquiries</p>
-              <p><Link href="/join-the-team" className="btn">FIND OUT MORE</Link></p>
-            </div>
-          </div>
-        </div>
+        {/* Footer note */}
+        <p className={styles.footNote}>AVS Kitchens — Concord, ON</p>
       </div>
     </div>
   );

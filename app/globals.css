@@ -1239,3 +1239,170 @@ h1, h2,  h4, h5, h6 {
     gap: 20px;
   }
 }
+
+
+
+
+/* ============================================
+   Contact Page — Extra Styles (matching theme)
+   ============================================ */
+
+/* Intro text */
+.contact-page .contact-intro {
+  font-family: "BaskervilleBT-Roman", serif;
+  font-size: 16px;
+  color: #676160;
+  text-align: center;
+  margin: 0 0 40px;
+  line-height: 1.7;
+}
+
+/* Cards row (uses existing .contact-main-row gap: 30px) */
+.contact-page .contact-main-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 60px;
+}
+
+/* Base card (already exists, but ensure consistent min-height for 3 cards) */
+.contact-page .contact-card {
+  flex: 1;
+  min-width: 280px;
+  color: #ffffff;
+  text-align: center;
+  min-height: 420px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease;
+}
+
+.contact-page .contact-card:hover {
+  transform: translateY(-4px);
+}
+
+/* Card content */
+.contact-page .contact-card-content {
+  padding: 60px 30px;
+  line-height: 1.8;
+  width: 100%;
+}
+
+.contact-page .contact-card h3 {
+  font-family: "BaskervilleBT-Roman", serif;
+  font-size: 17px;
+  letter-spacing: 3px;
+  font-weight: 400;
+  text-transform: uppercase;
+  margin: 0 0 25px;
+  color: #ffffff;
+}
+
+.contact-page .contact-card p {
+  font-family: 'GillSansMTPro-Medium', "BaskervilleBT-Roman", sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin: 0 0 10px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+
+.contact-page .contact-card a {
+  color: #ffffff;
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+.contact-page .contact-card a:hover {
+  border-bottom-color: #ffffff;
+}
+
+/* Address block */
+.contact-page .address-block {
+  padding-top: 10px;
+}
+
+.contact-page .address-block strong {
+  font-weight: 500;
+  letter-spacing: 0.5px;
+}
+
+/* Button (matches .bottom-card .btn style) */
+.contact-page .contact-card .btn {
+  display: inline-block;
+  background: transparent;
+  border: 1px solid #ffffff;
+  color: #ffffff;
+  padding: 10px 22px;
+  margin-top: 20px;
+  text-transform: uppercase;
+  font-family: "BaskervilleBT-Roman", serif;
+  font-size: 12px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.contact-page .contact-card .btn:hover {
+  background: #ffffff;
+  color: #676160;
+  border-bottom-color: #ffffff;
+}
+
+/* Card colors — using your existing palette */
+.contact-page .contact-card-phone {
+  background-color: #675549; /* warm brown (like USA card) */
+}
+
+.contact-page .contact-card-email {
+  background-color: #778b8f; /* muted blue-gray (like UK card) */
+}
+
+.contact-page .contact-card-address {
+  background-color: #c8ad7f; /* accent gold */
+}
+
+/* ============================================
+   Responsive
+   ============================================ */
+@media (max-width: 992px) {
+  .contact-page .contact-card {
+    min-width: calc(50% - 15px);
+    min-height: 360px;
+  }
+
+  .contact-page .contact-card-content {
+    padding: 50px 25px;
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-page .contact-main-row {
+    gap: 20px;
+  }
+
+  .contact-page .contact-card {
+    min-width: 100%;
+    min-height: auto;
+  }
+
+  .contact-page .contact-card-content {
+    padding: 40px 25px;
+  }
+
+  .contact-page .contact-card h3 {
+    font-size: 15px;
+    letter-spacing: 2px;
+  }
+
+  .contact-page .contact-card p {
+    font-size: 14px;
+  }
+
+  .contact-page .contact-intro {
+    font-size: 14px;
+    margin-bottom: 30px;
+  }
+}
